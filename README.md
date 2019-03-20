@@ -8,4 +8,4 @@ It consist of 3 parts:
 - App
 
 # Flow
-[[https://github.com/ivancoene/3botlogin/blob/master/docs/images/Scheme.jpg|alt=Auth_flow]]
+![Auth flow](https://github.com/coeneivan/3botlogin/blob/master/docs/images/Scheme.jpg)
