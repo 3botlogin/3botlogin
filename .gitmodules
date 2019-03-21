@@ -1,9 +1,9 @@
 [submodule "3botlogin_backend"]
 	path = 3botlogin_backend
-	url = git@github.com:coeneivan/3botlogin_backend.git
+	url = git@github.com:3botlogin/3botlogin_backend.git
 [submodule "3botlogin_app"]
 	path = 3botlogin_app
-	url = git@github.com:coeneivan/3botlogin_app.git
+	url = git@github.com:3botlogin/3botlogin_app.git
 [submodule "3botlogin_frontend"]
 	path = 3botlogin_frontend
-	url = git@github.com:coeneivan/3botlogin_frontend.git
+	url = git@github.com:3botlogin/3botlogin_frontend.git
