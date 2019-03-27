@@ -14,7 +14,7 @@ Example.com wants to verify a user.
 4) To verify the login example.com makes a POST call to `https://3botlog.in/api/verify` with following body `{ username:'exampleman', signedhash:'abc123+', hash: 'abc123'}`
 5) The user is signed in
 
-> 3botlog.in and example.com is an example url. 
+> 3botlog.in and example.com are example urls. 
 
 ### Flow
 ![Auth flow](https://github.com/coeneivan/3botlogin/blob/master/docs/images/Scheme.jpg)
