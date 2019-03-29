@@ -17,7 +17,7 @@ Example.com wants to verify a user.
 > 3botlog.in and example.com are example urls. 
 
 ### Flow
-![Auth flow](https://github.com/coeneivan/3botlogin/blob/master/docs/images/Scheme.jpg)
+![Auth flow](https://github.com/3botlogin/3botlogin/blob/master/docs/images/Scheme.png)
 
 
 # TODO
