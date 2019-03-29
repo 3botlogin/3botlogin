@@ -32,11 +32,12 @@ Example.com wants to verify a user.
 - [x] Store private key on phone
 - [x] Store pin code
 - [x] Tactile feedback
+- [X] Race condition on registration
 - [ ] Use SQLLite instead of in memory
 - [ ] Improve UI app
 - [ ] Ask for permissions instead of crashing the app 😓
-- [ ] Race condition on registration
 - [ ] Run in Docker
 - [ ] Logo 
 - [ ] iOS test
 - [ ] Recovery flow (enter passphrase)
+- [ ] Rework camera preview aspectratio
