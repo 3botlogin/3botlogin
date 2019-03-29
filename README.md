@@ -18,3 +18,25 @@ Example.com wants to verify a user.
 
 ### Flow
 ![Auth flow](https://github.com/coeneivan/3botlogin/blob/master/docs/images/Scheme.jpg)
+
+
+# TODO
+- [x] Generate Keys
+- [x] Store public key in backend 
+- [x] Scan QR to register
+- [x] Choose pin
+- [x] Sign hash (got Private key and hash via QR)
+- [x] Notification (hash sent by notification) to log in
+- [x] Verify pin code
+- [x] Verify signature in backend (API)
+- [x] Store private key on phone
+- [x] Store pin code
+- [] Use SQLLite instead of in memory
+- [] Improve UI app
+- [] Tactile feedback
+- [] Ask for permissions instead of crashing the app 😓
+- [] Race condition on registration
+- [] Run in Docker
+- [] Logo 
+- [] iOS test
+- [] Recovery flow (enter passphrase)
