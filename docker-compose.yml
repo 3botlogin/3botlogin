@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  cowork_ui:
+    image: jimber/3botlogin
+    container_name: 3botlogin
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    volumes:
+      - /opt/3botlogin/certs:/certificates
+    ports:
+      - 80:80/tcp
+      - 443:443/tcp
+      - 5000:5000/tcp
