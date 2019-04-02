@@ -1,3 +1,6 @@
+all: submodules
+	docker-compose build
+	docker-compose up -d
 fe:
 	cd 3botlogin_frontend && npm run serve
 be:
@@ -7,4 +10,3 @@ dependencies:
 submodules:
 	git submodule update --init --recursive
 	git submodule foreach --recursive git checkout master
-

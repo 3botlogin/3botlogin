@@ -19,6 +19,14 @@ Example.com wants to verify a user.
 ### Flow
 ![Auth flow](https://github.com/3botlogin/3botlogin/blob/master/docs/images/Scheme.png)
 
+## Run it
+To run the 3Bot login you'll need to execute following commands:
+```cmd
+make 
+```
+Make sure to have the right certificates in the /certificates directory.
+
+This will run The backend and front end.
 
 # TODO
 - [x] Generate Keys
@@ -32,12 +40,13 @@ Example.com wants to verify a user.
 - [x] Store private key on phone
 - [x] Store pin code
 - [x] Tactile feedback
-- [X] Race condition on registration
+- [x] Race condition on registration
+- [x] Ask for permissions instead of crashing the app 😓
+- [x] Run in Docker
+- [x] Rework camera preview aspectratio
 - [ ] Use SQLLite instead of in memory
 - [ ] Improve UI app
-- [ ] Ask for permissions instead of crashing the app 😓
-- [ ] Run in Docker
 - [ ] Logo 
 - [ ] iOS test
 - [ ] Recovery flow (enter passphrase)
-- [ ] Rework camera preview aspectratio
+- [ ] Check if email is valid
