@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  cowork_ui:
+  3botlogin:
     image: jimber/3botlogin
     container_name: 3botlogin
     build:
