@@ -44,9 +44,9 @@ This will run The backend and front end.
 - [x] Ask for permissions instead of crashing the app 😓
 - [x] Run in Docker
 - [x] Rework camera preview aspectratio
-- [ ] Use SQLLite instead of in memory
+- [x] Use SQLLite instead of in memory
+- [x] Check if email is valid
 - [ ] Improve UI app
 - [ ] Logo 
 - [ ] iOS test
 - [ ] Recovery flow (enter passphrase)
-- [ ] Check if email is valid
