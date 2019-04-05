@@ -48,11 +48,11 @@ This will run The backend and front end.
 - [x] Improve UI app
 - [x] Logo 
 - [x] Pressing back lets you re-enter your pin on registration
+- [x] Random crashes
 - [ ] Rework camera preview aspectratio
 - [ ] iOS test
 - [ ] Recovery flow (enter passphrase)
 - [ ] Error page should explain how to use it
-- [ ] Random crashes
 - [ ] Mobile only flow (tap on QR or something)
 - [ ] Show links to apps on registration page
 - [ ] Notification not always sent
