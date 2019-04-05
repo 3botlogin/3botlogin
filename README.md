@@ -47,14 +47,22 @@ This will run The backend and front end.
 - [x] Check if email is valid
 - [x] Improve UI app
 - [x] Logo 
+- [x] Pressing back lets you re-enter your pin on registration
 - [ ] Rework camera preview aspectratio
 - [ ] iOS test
 - [ ] Recovery flow (enter passphrase)
 - [ ] Error page should explain how to use it
 - [ ] Random crashes
-- [ ] Pressing back lets you re-enter your pin on registration
 - [ ] Mobile only flow (tap on QR or something)
 - [ ] Show links to apps on registration page
 - [ ] Notification not always sent
 - [ ] Resend notification
 - [ ] Investigate zxing Plugin fo reading QR
+- [ ] Put python dependencies in requirements.txt
+- [ ] Max pin input 
+- [ ] Email verification
+- [ ] Request email via API
+    - store email in phone
+    - Verify using verifier (Jimber Email Verification)
+    - You get verification signed by JEV
+    - App can get email from your phone including verifications
