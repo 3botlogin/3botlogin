@@ -50,12 +50,12 @@ This will run The backend and front end.
 - [x] Pressing back lets you re-enter your pin on registration
 - [x] Random crashes
 - [x] Python dependencies in requirements.txt
-- [ ] Rework camera preview aspectratio
+- [x] Resend notification
+- [x] Error page should explain how to use it
 - [ ] Notification not always sent
-- [ ] Resend notification
+- [ ] Rework camera preview aspectratio
 - [ ] iOS test
 - [ ] Recovery flow (enter passphrase)
-- [ ] Error page should explain how to use it
 - [ ] Mobile only flow (tap on QR or something)
 - [ ] Show links to apps on registration page
 - [ ] Investigate zxing Plugin fo reading QR
