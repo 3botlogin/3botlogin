@@ -52,8 +52,8 @@ This will run The backend and front end.
 - [x] Python dependencies in requirements.txt
 - [x] Resend notification
 - [x] Error page should explain how to use it
+- [x] Rework camera preview aspectratio
 - [ ] Notification not always sent
-- [ ] Rework camera preview aspectratio
 - [ ] iOS test
 - [ ] Recovery flow (enter passphrase)
 - [ ] Mobile only flow (tap on QR or something)
