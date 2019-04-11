@@ -53,7 +53,7 @@ This will run The backend and front end.
 - [x] Resend notification
 - [x] Error page should explain how to use it
 - [x] Rework camera preview aspectratio
-- [ ] Notification not always sent
+- [x] Notification not always sent
 - [ ] iOS test
 - [ ] Recovery flow (enter passphrase)
 - [ ] Mobile only flow (tap on QR or something)
