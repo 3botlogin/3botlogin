@@ -54,7 +54,7 @@ This will run The backend and front end.
 - [x] Error page should explain how to use it
 - [x] Rework camera preview aspectratio
 - [x] Notification not always sent
-- [ ] iOS test
+- [x] iOS test
 - [ ] Recovery flow (enter passphrase)
 - [ ] Mobile only flow (tap on QR or something)
 - [ ] Show links to apps on registration page
