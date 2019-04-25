@@ -55,8 +55,8 @@ This will run The backend and front end.
 - [x] Rework camera preview aspectratio
 - [x] Notification not always sent
 - [x] iOS test
+- [x] Mobile only flow
 - [ ] Recovery flow (enter passphrase)
-- [ ] Mobile only flow (tap on QR or something)
 - [ ] Show links to apps on registration page
 - [ ] Investigate zxing Plugin fo reading QR
 - [ ] Max pin input 
