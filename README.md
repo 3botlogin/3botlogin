@@ -19,6 +19,16 @@ Example.com wants to verify a user.
 ### Flow
 ![Auth flow](https://github.com/3botlogin/3botlogin/blob/master/docs/images/Scheme.png)
 
+### Scopes
+If you want to request scopes your app needs to be known in the 3Bot mobile app of the user.
+You'll need to pass *appid*,*publickey*,*scopes*,*state* and *redirecturl*.
+
+The user will be ask to login/register and then the scope will be shown to him/her. If (s)he accepts, (s)he will encrypt the scope and send it. Doing so we can assure that your app is the only one who gets the data and you can verify the signature.
+
+A valid url can look like this: `https://3botlog.in?state=abc123&scope=user:email&appid=example%20app&publickey=aaaaaa&redirecturl=https%3A%2F%2Fexample.com%2Fcallback`
+
+> At the moment being, only `user:email` is implemented
+
 ## Run it
 To run the 3Bot login you'll need to execute following commands:
 ```cmd
@@ -56,13 +66,9 @@ This will run The backend and front end.
 - [x] Notification not always sent
 - [x] iOS test
 - [x] Mobile only flow
+- [x] Email verification
+- [ ] Request email via API
 - [ ] Recovery flow (enter passphrase)
 - [ ] Show links to apps on registration page
 - [ ] Investigate zxing Plugin fo reading QR
 - [ ] Max pin input 
-- [ ] Email verification
-- [ ] Request email via API
-    - store email in phone
-    - Verify using verifier (Jimber Email Verification)
-    - You get verification signed by JEV
-    - App can get email from your phone including verifications
