@@ -1,4 +1,4 @@
-FROM node:8 as builder
+FROM node:9 as builder
 
 COPY 3botlogin_frontend /3botlogin_frontend
 WORKDIR /3botlogin_frontend
