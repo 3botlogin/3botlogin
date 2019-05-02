@@ -2,7 +2,7 @@ version: '3'
 
 services:
   3botlogin:
-    image: jimber/3botlogin
+    image: amoljimber/3botlogin
     container_name: 3botlogin
     build:
       context: ./
