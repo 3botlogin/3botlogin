@@ -3,7 +3,7 @@
 By using 3Bot login you can ensure that a user is who (s)he says (s)he is.
 
 ## How does this work?
-As seen in the flowchart below, a 3th party app needs to redirect to the 3botlogin with *state* and *redirecturl* as query parameter. When the authentication is successfully finished, the user is being reidrected to the *redirecturl* with *username* and *signedhas* as query parameter.
+As seen in the flowchart below, a 3th party app needs to redirect to the 3botlogin with *state* and *redirecturl* as query parameter. When the authentication is successfully finished, the user is being reidrected to the *redirecturl* with *username* and *signedhash* as query parameter.
 Then it's up to the 3th party site to verify if it was a valid loging. This can be done by an POST call to */API/verify* with *username*, *signedhash* and *hash* in the body. 
 
 ### Example
@@ -23,7 +23,7 @@ Example.com wants to verify a user.
 If you want to request scopes your app needs to be known in the 3Bot mobile app of the user.
 You'll need to pass *appid*,*publickey*,*scopes*,*state* and *redirecturl*.
 
-The user will be ask to login/register and then the scope will be shown to him/her. If (s)he accepts, (s)he will encrypt the scope and send it. Doing so we can assure that your app is the only one who gets the data and you can verify the signature.
+The user will be asked to login/register and then the scope will be shown to him/her. If (s)he accepts, (s)he will encrypt the scope and send it. Doing so we can assure that your app is the only one who gets the data and you can verify the signature.
 
 A valid url can look like this: `https://3botlog.in?state=abc123&scope=user:email&appid=example%20app&publickey=aaaaaa&redirecturl=https%3A%2F%2Fexample.com%2Fcallback`
 
