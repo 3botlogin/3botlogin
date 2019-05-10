@@ -67,8 +67,4 @@ This will run The backend and front end.
 - [x] iOS test
 - [x] Mobile only flow
 - [x] Email verification
-- [ ] Request email via API
-- [ ] Recovery flow (enter passphrase)
-- [ ] Show links to apps on registration page
-- [ ] Investigate zxing Plugin fo reading QR
-- [ ] Max pin input 
+- [x] Request email via scopes
