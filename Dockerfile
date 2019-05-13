@@ -2,7 +2,6 @@ FROM node:9 as builder
 
 COPY 3botlogin_frontend /3botlogin_frontend
 WORKDIR /3botlogin_frontend
-RUN mv public/config.prod.js public/config.js
 RUN npm i && npm run build
 
 
