@@ -3,8 +3,8 @@
 By using 3Bot login you can ensure that a user is who (s)he says (s)he is.
 
 ## How does this work?
-As seen in the flowchart below, a 3th party app needs to redirect to the 3botlogin with *state* and *redirecturl* as query parameter. When the authentication is successfully finished, the user is being reidrected to the *redirecturl* with *username* and *signedhash* as query parameter.
-Then it's up to the 3th party site to verify if it was a valid loging. This can be done by an POST call to */API/verify* with *username*, *signedhash* and *hash* in the body. 
+As seen in the flowchart below, a 3rd party app needs to redirect to the 3botlogin with *state* and *redirecturl* as query parameter. When the authentication is successfully finished, the user is being redirected to the *redirecturl* with *username* and *signedhash* as query parameter.
+Then it's up to the 3rd party site to verify if it was a valid login. This can be done by an POST call to */API/verify* with *username*, *signedhash* and *hash* in the body. 
 
 ### Example
 Example.com wants to verify a user.
