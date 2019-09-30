@@ -1,6 +1,6 @@
 # 3Bot login
 3Bot login is a passwordless 2FA authenticator.
-By using 3Bot login you can ensure that a user is who (s)he says (s)he is.
+By using 3Bot login you can ensure that a user is who they say they are.
 
 ## How does this work?
 As seen in the flowchart below, a 3rd party app needs to redirect to the 3botlogin with *state* and *redirecturl* as query parameter. When the authentication is successfully finished, the user is being redirected to the *redirecturl* with *username* and *signedhash* as query parameter.
