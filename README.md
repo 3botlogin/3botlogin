@@ -43,33 +43,10 @@ Make sure to have the right certificates in the /certificates directory.
 
 This will run The backend and front end.
 
-# TODO
-- [x] Generate Keys
-- [x] Store public key in backend 
-- [x] Scan QR to register
-- [x] Choose pin
-- [x] Sign hash (got Private key and hash via QR)
-- [x] Notification (hash sent by notification) to log in
-- [x] Verify pin code
-- [x] Verify signature in backend (API)
-- [x] Store private key on phone
-- [x] Store pin code
-- [x] Tactile feedback
-- [x] Race condition on registration
-- [x] Ask for permissions instead of crashing the app 😓
-- [x] Run in Docker
-- [x] Use SQLLite instead of in memory
-- [x] Check if email is valid
-- [x] Improve UI app
-- [x] Logo 
-- [x] Pressing back lets you re-enter your pin on registration
-- [x] Random crashes
-- [x] Python dependencies in requirements.txt
-- [x] Resend notification
-- [x] Error page should explain how to use it
-- [x] Rework camera preview aspectratio
-- [x] Notification not always sent
-- [x] iOS test
-- [x] Mobile only flow
-- [x] Email verification
-- [x] Request email via scopes
+## Code references
+
+# Generation of keys / seed
+https://github.com/3botlogin/3botlogin_frontend/blob/f7c8ff795f2f51d2b9ad0f818fb7808cbf9c08f0/src/services/cryptoService.js#L6
+https://github.com/3botlogin/3botlogin_app/blob/c447a65b3f00b9ffaf1f7ce23f9ff0c0d632f393/lib/services/cryptoService.dart#L33
+https://github.com/3botlogin/3botlogin_app/blob/c447a65b3f00b9ffaf1f7ce23f9ff0c0d632f393/lib/services/cryptoService.dart#L80
+
