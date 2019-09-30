@@ -17,7 +17,7 @@ Example.com wants to verify a user.
 > 3botlog.in and example.com are example urls. 
 
 ### Flow
-![Auth flow](https://github.com/3botlogin/3botlogin/blob/master/docs/images/Scheme.png)
+![Auth flow](https://github.com/3botlogin/3botlogin/blob/1c0f360db07fd80ab5723ff3c11dd421cc04df82/docs/images/Scheme.png)
 
 ### Scopes
 If you want to request scopes your app needs to be known in the 3Bot mobile app of the user.
